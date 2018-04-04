@@ -1,24 +1,16 @@
 {
     "name": "angularx-boilerplate",
+    "description": "Angular Boilerplate based on Universal Frontend Architecture",
+    "license": "MIT",
     "private": true,
     "version": "1.0.0",
-    "main": "index.js",
     "scripts": {
         "commit": "commit",
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "server": "server-emulator"
     },
-    "author": "",
-    "license": "ISC",
-    "description": "",
     "devDependencies": {
-        "@commitlint/cli": "5.2.5",
-        "@commitlint/config-angular": "5.1.1",
-        "@commitlint/prompt-cli": "5.2.5",
-        "husky": "0.14.3",
-        "lerna": "2.9.1",
-
-        "@paloit-oss/server-emulator": "file:../server-emulator"
+        "@paloit-oss/angularx-cli": "file:../angularx-cli"
     },
     "workspaces": [
         "src/modules/*",
