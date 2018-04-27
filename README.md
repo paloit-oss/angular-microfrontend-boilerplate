@@ -1,2 +1,2 @@
 # angularx-boilerplate
-Angular boilerplate based on Universal Frontend Architecture
+Angular boilerplate based on Micro Frontend Architecture

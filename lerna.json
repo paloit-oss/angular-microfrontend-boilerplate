@@ -1,8 +1,12 @@
 {
-    "lerna": "2.9.1",
+    "lerna": "2.11.0",
     "packages": [
-        "src/modules/*",
-        "src/deployment-containers/*"
+        "src/components/*",
+        "src/deployment-containers/*",
+        "src/features/*",
+        "src/framework/*",
+        "src/shared-features/*",
+        "src/themes/*"
     ],
     "npmClient": "yarn",
     "useWorkspaces": true,

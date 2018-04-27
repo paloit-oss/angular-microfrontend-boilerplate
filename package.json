@@ -1,19 +1,24 @@
 {
     "name": "angularx-boilerplate",
-    "description": "Angular Boilerplate based on Universal Frontend Architecture",
+    "description": "Angular Boilerplate based on Micro Frontend Architecture",
     "license": "MIT",
     "private": true,
     "version": "1.0.0",
     "scripts": {
         "commit": "commit",
         "commitmsg": "commitlint -e $GIT_PARAMS",
-        "server": "server-emulator"
+        "server": "server-emulator",
+        "ngx": "ngx"
     },
     "devDependencies": {
         "@paloit-oss/angularx-cli": "file:../angularx-cli"
     },
     "workspaces": [
-        "src/modules/*",
-        "src/deployment-containers/*"
+        "src/components/*",
+        "src/deployment-containers/*",
+        "src/features/*",
+        "src/framework/*",
+        "src/shared-features/*",
+        "src/themes/*"
     ]
 }
