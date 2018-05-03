@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+/@angular-microfrontend-boilerplate
 
 # dependencies
 /node_modules

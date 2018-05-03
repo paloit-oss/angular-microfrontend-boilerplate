@@ -1,0 +1,19 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "outDir": "./out-tsc/app",
+      "module": "es2015",
+      "baseUrl": ".",
+      "paths": {
+        "@angular-microfrontend-boilerplate/*": [
+          "@angular-microfrontend-boilerplate/*"
+        ]
+      }
+    },
+    "exclude": [
+      "**/*.spec.ts",
+      "**/*.e2e-spec.ts",
+      "node_modules",
+      "tmp"
+    ]
+}
