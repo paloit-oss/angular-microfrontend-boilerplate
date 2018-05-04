@@ -90,15 +90,15 @@
     "use-pipe-transform-interface": true,
     "component-class-suffix": true,
     "directive-class-suffix": true,
-
     "nx-enforce-module-boundaries": [
-      true,
-      {
-        "allow": [],
-        "depConstraints": [
-          { "sourceTag": "*", "onlyDependOnLibsWithTags": ["*"] }
-        ]
-      }
+        true,
+        {
+          "allow": [],
+          "depConstraints": [
+            { "sourceTag": "feature", "onlyDependOnLibsWithTags": ["framework", "component", "shared-feature"] },
+            { "sourceTag": "shared-feature", "onlyDependOnLibsWithTags": ["framework", "components"] }
+          ]
+        }
     ]
   }
 }
